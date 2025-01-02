@@ -1,10 +1,11 @@
 {
-    "name": "MLR ecommerce BTCPay 2",
-    "summary": "MLR ecommerce BTCPay 2",
-    "author": "ERP",
+    "name": "MLR ecommerce BTCPay",
+    "summary": "MLR ecommerce BTCPay",
+    "author": "MLR - MI Lightning Rod",
     "website": "https://www.milightningrod.com",
     "category": "Ecommerce",
-    "version": "1.0",
+    "version": "17.0",
+    "images": ["static/description/icon.png"]
     "depends": ["website", "mlr_ecommerce_cryptopayments"],
     "data": [
         "views/btcpay_payment_template.xml",
@@ -18,5 +19,5 @@
     "auto_install": False,
     'post_init_hook': 'post_init_hook',
     'uninstall_hook': 'uninstall_hook',
-    "license": "OPL-1",
+    "license": "LGPL-3",
 }
