@@ -5,7 +5,7 @@
     "website": "https://www.milightningrod.com",
     "category": "Ecommerce",
     "version": "17.0",
-    "images": ["static/description/icon.png"]
+    "images": ["static/description/icon.png"],
     "depends": ["website", "mlr_ecommerce_cryptopayments"],
     "data": [
         "views/btcpay_payment_template.xml",
